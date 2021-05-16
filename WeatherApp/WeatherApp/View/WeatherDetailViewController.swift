@@ -265,9 +265,7 @@ extension WeatherDetailViewController : UICollectionViewDelegate , UICollectionV
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         myCell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? LocationCollectionViewCell
-        myCell.tag = indexPath.item
         myCell.data = WeatherViewModel.certainLocation.consolidatedWeather[indexPath.item]
-        myCell.contentView.backgroundColor = .white
         return myCell
     }
     

@@ -26,8 +26,7 @@ class LocationCollectionViewCell: UICollectionViewCell {
             guard let data = data else { return }
             let url = URL(string: "https://www.metaweather.com/static/img/weather/ico/\(data.weatherStateAbbr).ico")
             bg.loadImageUsingCacheWithUrlString(urlString: String(describing:url!))
-            var newDate = format(date: data.applicableDate)
-            print(newDate)
+            let newDate = format(date: data.applicableDate)
             title.text = newDate
         }
     }
@@ -56,9 +55,14 @@ class LocationCollectionViewCell: UICollectionViewCell {
         title.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 5).isActive = true
         
         
-        contentView.layer.borderWidth = 1
+        contentView.layer.borderWidth = 3
         contentView.layer.borderColor = UIColor.gray.cgColor
-        contentView.layer.cornerRadius = 15
+        contentView.layer.cornerRadius = 20
+        contentView.layer.backgroundColor = UIColor.white.cgColor
+        contentView.layer.shadowColor = UIColor.black.cgColor
+        contentView.layer.shadowOpacity = 1
+        contentView.layer.shadowRadius = 10
+        contentView.layer.shadowOffset = CGSize(width: 0, height: 0)
         
     }
     
