@@ -12,5 +12,5 @@ App writen in UIKit which reports you the weather conditions related to your loc
   <img src="https://i.imgur.com/xDDKMwp.jpeg" width="300">
   <img src="https://i.imgur.com/PneGrxV.jpg" width="300">
 
-  <img src="https://i.imgur.com/j6PwVJT.jpeg" width="300">
+  <img src="https://i.imgur.com/dn3mtH5.jpg" width="300">
 </p>
