@@ -26,8 +26,8 @@ class LocationCollectionViewCell: UICollectionViewCell {
             guard let data = data else { return }
             let url = URL(string: "https://www.metaweather.com/static/img/weather/ico/\(data.weatherStateAbbr).ico")
             bg.loadImageUsingCacheWithUrlString(urlString: String(describing:url!))
-            let components = data.applicableDate.components(separatedBy: "-")
-            let newDate = "\(components[2])/\(components[1])"
+            var newDate = format(date: data.applicableDate)
+            print(newDate)
             title.text = newDate
         }
     }

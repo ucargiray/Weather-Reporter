@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C25B31F6265142360080FBB3 /* DateToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B31F5265142360080FBB3 /* DateToString.swift */; };
 		C2A8DE37264EABF900835D0A /* ViewController+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A8DE36264EABF900835D0A /* ViewController+Gradient.swift */; };
 		C2F8EB4B264DC8AF00A2BE95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F8EB4A264DC8AF00A2BE95 /* AppDelegate.swift */; };
 		C2F8EB4D264DC8AF00A2BE95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F8EB4C264DC8AF00A2BE95 /* SceneDelegate.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C25B31F5265142360080FBB3 /* DateToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateToString.swift; sourceTree = "<group>"; };
 		C2A8DE36264EABF900835D0A /* ViewController+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Gradient.swift"; sourceTree = "<group>"; };
 		C2F8EB47264DC8AF00A2BE95 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F8EB4A264DC8AF00A2BE95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				C2F8EB6C264DC90300A2BE95 /* NearbyCityViewController.swift */,
 				C2F8EB6E264DC90300A2BE95 /* WeatherDetailViewController.swift */,
 				C2A8DE36264EABF900835D0A /* ViewController+Gradient.swift */,
+				C25B31F5265142360080FBB3 /* DateToString.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				C2A8DE37264EABF900835D0A /* ViewController+Gradient.swift in Sources */,
 				C2F8EB71264DC90300A2BE95 /* MainViewController.swift in Sources */,
 				C2F8EB74264DC90300A2BE95 /* WeatherDetailViewController.swift in Sources */,
+				C25B31F6265142360080FBB3 /* DateToString.swift in Sources */,
 				C2F8EB72264DC90300A2BE95 /* NearbyCityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -138,6 +138,11 @@ class MainViewController: UIViewController {
         showMoreDetailButton.backgroundColor = .systemGray2
         showMoreDetailButton.layer.borderColor = UIColor.systemGray.cgColor
         showMoreDetailButton.setTitleColor(.white, for: .normal)
+        showMoreDetailButton.layer.shadowColor = UIColor.black.cgColor
+        showMoreDetailButton.layer.shadowRadius = 10
+        showMoreDetailButton.layer.shadowOffset = .zero
+        showMoreDetailButton.layer.shadowOpacity = 1
+        
     }
     
     func createNearLabel() {
